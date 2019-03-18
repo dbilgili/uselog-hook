@@ -1,0 +1,23 @@
+{
+  "name": "uselog-hook",
+  "version": "1.0.3",
+  "description": "Simple state observer hook for react",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "keywords": ["logging", "hook", "log-hook", "console", "log"],
+  "author": "dbilgili",
+  "repository": "dbilgili/uselog-hook",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  }
+}
